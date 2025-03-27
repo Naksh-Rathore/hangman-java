@@ -12,7 +12,7 @@ public class Main {
             String word = getWord();
             String guess;
 
-            int lives = 5;
+            int lives = 7;
 
             ArrayList<String> userGuess = new ArrayList<>();
             ArrayList<String> usedLetters = new ArrayList<>();
