@@ -3,6 +3,7 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;
 
@@ -17,6 +18,8 @@ public class Main {
             ArrayList<String> userGuess = new ArrayList<>();
             ArrayList<String> usedLetters = new ArrayList<>();
 
+            ArrayList<String> letters = new ArrayList<>(Arrays.asList("a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"));    
+                    
             for (int i = 0; i < word.length(); i++) {
                 userGuess.add("_");
             }
@@ -32,7 +35,7 @@ public class Main {
                 System.out.print("\nEnter Guess (Lives: " + lives + "): ");
                 guess = scanner.nextLine().toLowerCase();
 
-                if (guess.length() != 1) {
+                if (guess.length() != 1 || !letters.contains(guess)) {
                     System.out.println("\nInvalid guess\n");
                     continue;
                 }
