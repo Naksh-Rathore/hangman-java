@@ -13,7 +13,7 @@ public class Main {
             String word = getWord();
             String guess;
 
-            int lives = 7;
+            int lives = 6;
 
             ArrayList<String> userGuess = new ArrayList<>();
             ArrayList<String> usedLetters = new ArrayList<>();
@@ -57,7 +57,7 @@ public class Main {
                     break;
                 }
 
-                else {
+                if (!word.contains(guess)) {
                     lives--;
                 }
             }
