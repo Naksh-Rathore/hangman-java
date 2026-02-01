@@ -30,4 +30,4 @@ Make sure words.txt is located in the project root folder. The program reads fro
 
 ## Contributing
 
-All contributions are welcomed! Just make sure they are relevant, clear, and helpful. Contributions not following these simple guidelines will likely be closed.
+All contributions are welcomed! Just make sure they are relevant, clear, and helpful, and abide to license clauses. Contributions not following these simple guidelines will likely be closed.
