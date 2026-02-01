@@ -26,7 +26,7 @@ Still from the project root:
 java -cp bin Main
 ```
 
-Make sure words.txt is located in the project root folder. The program reads from it directly.
+Make sure words.txt is located in the project root folder. The program reads from it directly. Feel free to change the contents of the wordlists to have more fun!
 
 ## Contributing
 
